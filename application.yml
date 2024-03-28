@@ -1,8 +1,9 @@
 ---
-spring.cloud.config.label: default
+spring.profiles.active: dev
 eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
 
 ---
+spring.profiles.active.on-profile: subject
 spring.cloud.config.label: subject
 words: I,You,He,She,It
 
