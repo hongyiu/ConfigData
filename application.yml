@@ -2,7 +2,9 @@ eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
 
 ---
 spring:
-  profiles: subject
+  config:
+    activate:
+      on-profile: subject
 words: I,You,He,She,It
 
 ---
