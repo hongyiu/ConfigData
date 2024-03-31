@@ -6,9 +6,8 @@ eureka:
       # defaultZone: http://localhost:8010/eureka/
       defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
 
-wordConfig:
-  preamble: The lucky word is
-  luckyWord: Irish
+wordConfig.luckyWord: Irish
+wordConfig.preamble: The lucky word is
 
 ---
 spring:
