@@ -1,1 +1,4 @@
-word-config.lucky-word: rabbit
+word-config:
+  luckyWord: “Rabbit’s Foot”
+  preamble: “The lucky word is”
+  
