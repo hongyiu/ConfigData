@@ -1,4 +1,4 @@
-word-config:
-  luckyWord: “Rabbit’s Foot”
-  preamble: “The lucky word is”
-  
+---
+wordConfig:
+  preamble: The lucky word is
+  luckyWord: Irish
